@@ -30,7 +30,7 @@ st.subheader("🏢 Departmental Conflicts")
 if total_conflicts == 0:
     st.success("✅ No conflicts detected across departments.")
 else:
-    st.error(f"❌ {total_conflicts} conflicts detected!")
+    st.error(f"❌ {total_conflicts } conflicts detected!")
     # Filter to show only departments with conflicts
     st.dataframe(
         df_conflicts[df_conflicts["conflicts"] > 0], 

@@ -17,6 +17,7 @@ st.set_page_config(layout="wide")
 st.title("👨‍💼 Vice-Dean / Dean – Strategic Dashboard")
 
 # ---------------- PREPARE DATA ----------------
+print(rooms_usage)
 df_rooms_usage = pd.DataFrame(rooms_usage)
 df_conflicts = pd.DataFrame(department_conflicts)
 df_workload = pd.DataFrame(professor_workload)
