@@ -1,6 +1,6 @@
 import requests
 
-url = "http://127.0.0.1:8000"
+url = "https://exam-scheduler-v7yx.onrender.com"
 
 # 1. Departments (7 total)
 departments =  requests.get(url+"/departments").json()
